@@ -1,0 +1,385 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+
+    .about-image {
+        float: none;
+        height: auto !important;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .google-maps {
+        margin-top: 50px;
+    }
+
+    .dropdown-menu {
+        margin-top: 0 !important;
+        padding-top: 0;
+
+    }
+
+    .gallery-thumbnails img {
+
+        margin-bottom: 15px;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .thumbnails img {
+        height: auto;
+    }
+
+    .events-detail-extra img {
+        height: auto;
+        margin: 10px 10px 10px 0;
+        width: 100%;
+    }
+
+    .col-news {
+        margin: 50px 0;
+    }
+
+    #breadcrumb-banner {
+        padding: 40px 0 15px 0;
+        line-height: 30px;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .navbar-default .navbar-toggle {
+        border: none;
+        background: #0066b3;
+    }
+
+    .navbar-default .navbar-toggle:focus, .navbar-toggle:active, .navbar-toggle:hover {
+        /*border: none;*/
+        background: #0066b3;
+    }
+
+    .sticky .navbar-brand-title {
+        top: 24px;
+        font-size: 15px;
+    }
+
+    .navbar-brand-title {
+        position: absolute;
+        top: 15px;
+        left: 100px;
+        text-transform: uppercase;
+        font-size: 18px;
+        /*color: #525a60;*/
+        color: #0066b3;
+        font-weight: 500
+    }
+
+    .top-bar {
+        display: none;
+    }
+
+    .top-bar-info-left {
+        text-align: center;
+
+    }
+
+    .top-bar-info-left ul li {
+        font-size: 18px;
+        font-weight: 400;
+        padding-top: 5px;
+        text-transform: uppercase;
+
+    }
+
+    .top-bar-info-right ul li {
+        /*float: left;*/
+        /*margin-top:5px;*/
+        /*padding: 0;*/
+        display: none;
+
+    }
+
+    .top-bar-info-right ul li a {
+        margin-left: 35px;
+        /*padding-right: 10px;*/
+
+    }
+
+    .navbar-brand {
+        padding: 0;
+    }
+
+    .navbar-brand > img {
+        height: 100%;
+        margin-left: 10px;
+        width: auto;
+    }
+
+    .about-image {
+        float: none;
+        max-height: 100%;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #aboutus {
+        padding: 50px 0 20px 0;
+    }
+
+    #aboutus p {
+        font-size: 15px;
+    }
+
+    .logo-footer h4, #contact-us h4 {
+        text-align: center
+    }
+
+    #gallery {
+        padding: 45px 0;
+    }
+
+    #gallery h1 {
+        padding-bottom: 30px;
+        border: none;
+    }
+
+    .gallery-slider {
+        margin-bottom: 30px;
+    }
+
+    .vid {
+        margin-top: 20px;
+    }
+
+    #newsandevents {
+        padding: 50px 0 30px 0;
+    }
+
+    #newsandevents h1 {
+        margin: 0 0 40px 0;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 35px;
+        width: 100%;
+        z-index: 9999;
+        padding: 10px 10px 0 0;
+        box-shadow: 0 0 50px #ddd;
+        clear: both;
+        /* background: red; */
+
+    }
+
+    .sticky .navbar-brand > img {
+        margin-top: -4px;
+        transform: scale(0.9);
+    }
+
+    .google-maps {
+        margin-top: 30px;
+    }
+
+    .dropdown-menu {
+        margin-top: 0 !important;
+        padding-top: 0;
+    }
+
+    .navbar-nav .open .dropdown-menu > li > a {
+        line-height: 29px;
+        font-size: 15px;
+        margin-left: 25px;
+        color: #525a60 !important;
+    }
+
+    .gallery-thumbnails img {
+
+        margin-bottom: 15px;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .thumbnails img {
+        height: auto;
+    }
+
+    .events-detail-extra img {
+        height: auto;
+        margin: 10px 10px 10px 0;
+        width: 100%;
+    }
+
+    .col-news {
+        margin: 50px 0;
+    }
+
+    #breadcrumb-banner {
+        padding: 40px 0 15px 0;
+        line-height: 30px;
+    }
+
+    /*logo-footer{}*/
+}
+
+/*Tablets */
+@media (min-width: 767px) and (max-width: 991px) {
+
+    .top-bar .col-md-4 {
+        padding: 0;
+    }
+
+    .top-bar-info-left ul li {
+
+        font-size: 13px;
+        margin-right: 13px;
+    }
+
+    .top-bar-info-right {
+    }
+
+    .top-bar-info-right ul li a {
+        margin: 0;
+        padding: 0 9px 0 0;
+        font-size: 13px;
+    }
+
+    .top-bar-info-right ul li a > i {
+        /*margin-left: 10px;*/
+
+        font-size: 14px;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 10px;
+        width: 100%;
+        transition: 0.5s all;
+        box-shadow: 0 0 50px #ddd;
+        padding: 0;
+    }
+
+    .sticky .navbar-brand > img {
+        /*margin-top: -22px;*/
+        transition: 0.5s all;
+        transform: scale(0.4);
+        margin-top: -7px;
+    }
+
+    .navbar-brand > img {
+        margin-top: -20px;
+        transform: scale(0.8);
+    }
+
+    .dropdown-menu {
+        margin-top: 0 !important;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        margin-top: -18px;
+        font-size: 14px;
+        /*background: red;*/
+    }
+
+    .col-news {
+        margin: 50px 0;
+    }
+
+}
+
+/*-------Devices Below laptops--------*/
+@media ( max-width: 991px) {
+
+    .about-image {
+        float: none;
+        max-height: 300px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .footer-right, .footer-left {
+        text-align: center;
+        padding: 0;
+    }
+
+    .google-maps {
+        margin-top: 50px;
+    }
+
+    .notice-wrapper {
+        max-height: 285px;
+        overflow-y: auto;
+    }
+
+    .events-upcoming {
+        max-height: 285px;
+        overflow-y: auto;
+    }
+
+    /*.thumbnails h5 {*/
+    /*text-align: center;*/
+    /*}*/
+    #inner-pages {
+        padding: 0;
+
+    }
+
+    .cards {
+        margin-top: 20px;
+
+    }
+
+    .card-more-link {
+        position: absolute;
+        bottom: 15px;
+    }
+
+    .facilities img {
+        height: auto
+    }
+
+    .facilities .col-md-4 {
+        margin-bottom: 0;
+
+    }
+
+    .navbar {
+        margin: 8px 0;
+    }
+
+    .navbar-brand {
+        transform: scale(1);
+        margin-top: 0;
+        /*padding-top: 0;*/
+    }
+
+    #carousel-example {
+        margin-top: 40px;
+    }
+}
+
+/*Medium devices (tablets, greater than than 992px)*/
+@media (min-width: 991px) {
+    .navbar-default .navbar-nav > li > a {
+        margin-top: 46px;
+    }
+
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 979px) {
+
+}
